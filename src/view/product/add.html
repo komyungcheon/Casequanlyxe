@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../../public/css/styleadd.css">
+
+
+</head>
+<body>
+<section class="container">
+    <header>Thêm mới sản phẩm</header>
+    <form action="/add-product" method="post" class="form">
+        <div class="input-box">
+            <label>Name</label>
+            <input type="text" name="name" placeholder="Enter Name" required />
+        </div>
+        <div class="input-box">
+            <label>Price</label>
+            <input type="text" name="bienso" placeholder="Nhập Biển số xe" required />
+        </div>
+        <div class="input-box">
+            <label>Quantity</label>
+            <input type="text" name="phanphoiweb" placeholder="Nhập nhà phân phối" required />
+        </div>
+
+
+
+        <button type="submit">Add</button>
+    </form>
+</section>
+</body>
+</html>
